@@ -4,7 +4,7 @@
 
 ## Objective
 
-Develop a script that generates headline, SEO URL and social media post suggestions for Hearst Newspaper content using OpenAI's API.
+Develop a script that generates headline, SEO URL and social media post suggestions for Hearst Newspaper content using OpenAI's API. In addition, provide a risk analysis and mitigation strategies for automated content suggestions.
 
 ### Assignment details
 
