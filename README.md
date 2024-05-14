@@ -26,10 +26,13 @@ Create a Python (or JavaScript) program that:
    - SEO URL
    - Social media post
 
+### Final product expectations
+
+- **Input:** The program should accept articles in the form of plain text via terminal.
+- **Output:** The program should print suggestions in the terminal in *JSON format*.
+
 ### What we're looking for
 
-- **Input:** Accept articles in the form of plain text via the command line.
-- **Output:** Display suggestions in the terminal *in JSON format*.
 - **Prompt Structure:** Each API call must include:
   - *One* system message
   - *At least* one human message
