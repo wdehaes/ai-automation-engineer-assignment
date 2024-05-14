@@ -10,7 +10,7 @@ Develop a script that generates headline, SEO URL and social media post suggesti
 
 - **Duration:** 1 hour and 30 minutes (Zoom call with Ryan Serpico)
 - **OpenAI API key:** Ryan Serpico will provide you with a temporary OpenAI API key. He will delete the key after your time is up.
-- **Sample Articles:** Located in the `/data` folder
+- **Sample Articles:** Located in the `/data` folder. Use these to demonstrate your knowledge of few-shot prompting. Use `test_article.txt` to test your script.
 
 ---
 
@@ -28,7 +28,7 @@ Create a Python (or JavaScript) program that:
 
 ### What we're looking for
 
-- **Input:** Accept article text via the command line.
+- **Input:** Accept articles in the form of plain text via the command line.
 - **Output:** Display suggestions in the terminal *in JSON format*.
 - **Prompt Structure:** Each API call must include:
   - *One* system message
