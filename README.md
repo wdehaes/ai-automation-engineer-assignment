@@ -2,62 +2,86 @@
 
 ![Assignment repo banner](img/assignment_banner.webp)
 
-**Objective:**
+## Objective
 
-Write a script that generates headline, SEO URL, push alert and social media post suggestions for Hearst Newspaper content.
-Assignment details
+Develop a script that generates headline, SEO URL and social media post suggestions for Hearst Newspaper content using OpenAI's API.
 
-You will have 1 hour and 30 minutes to complete the assignment while on a Zoom call with Ryan Serpico.
+### Assignment details
+
+- **Duration:** 1 hour and 30 minutes (Zoom call with Ryan Serpico)
+- **OpenAI API key:** Ryan Serpico will provide you with a temporary OpenAI API key. He will delete the key after your time is up.
+- **Sample Articles:** Located in the `/data` folder
+
+---
 
 ## Part 1: Coding challenge
 
-**Task:**
+### Task
 
-Develop a Python (or JavaScript) program that interfaces with the GPT-4-Turbo API to generate one headline suggestion, one SEO URL suggestion, one push alert suggestion and one social media post suggestion.
+Create a Python (or JavaScript) program that:
 
-**Requirements:**
+1. Interfaces with OpenAI's API (you should use the `GPT-4o` model).
+2. Generates the following suggestions for given article text:
+   - Headline
+   - SEO URL
+   - Social media post
 
-- The script should accept article text via the command line.
-- The script should output all suggestions in the terminal.
-- Every prompt you send to OpenAI's API should have one system message, at least one human message and at least one AI message.
-- Exhibit your knowledge of few-shot prompting.
-- The suggestions should follow the tone set by prior articles from the San Francisco Chronicle.
-- The script's response should come in the form of JSON.
-- Give your best shot at making the response as deterministic as possible (*Note:* This is technically impossible, so don't kill yourself over it).
+### What we're looking for
 
-**What I don't want:**
+- **Input:** Accept article text via the command line.
+- **Output:** Display suggestions in the terminal *in JSON format*.
+- **Prompt Structure:** Each API call must include:
+  - *One* system message
+  - *At least* one human message
+  - *At least* one AI message
+- **Few-Shot Prompting:** Demonstrate your knowledge of this concept. Use the sample articles.
+- **Tone:** Match the tone of prior articles from the San Francisco Chronicle.
+- **Determinism:** Strive for consistent responses (fully deterministic output is not required).
 
-- Please don't create a whole UI.
-- Don't create a conversational chatbot.
+### Optional
 
-**Submission instructions**
+- **Framworks:** Feel free to use any libraries or frameworks you're comfortable with (LangChain, DSPy, etc.).
 
-- Send Ryan a link to the Github Repo with your code. Please don't include the API key in your submission.
+### What not to do
+
+- Do not create a UI.
+- Do not create a conversational chatbot.
+
+### Submission instructions
+
+- Provide a link to a GitHub repository with your code.
+- Exclude the API key from your submission.
+
+---
 
 ## Part 2: Risk Analysis and mitigation strategies
 
-**Task:**
+### Task
 
-Describe potential risks and challenges associated with generating automated content suggestions for news articles. What could go wrong with giving a tool like this to newsrooms? How would you attempt to account for these issues?
+Describe potential risks and challenges associated with automated content suggestions for news articles. Consider:
 
-**Requirements:**
+- Accuracy of generated content
+- Handling of sensitive or controversial topics
+- Dependence on the AI model's understanding of context
 
-- Word count: ~300 words
+### Requirements
 
-**Areas to consider:**
+- **Word Count:** Approximately 300 words
 
-- Accuracy of generated content.
-- Handling of sensitive or controversial topics.
-- Dependence on the AI model's understanding of context.
+---
 
-## Part 3: Explanation of ChatGPT/Github Copilot use (*Optional*)
+## Part 3: Explanation of ChatGPT/Github Copilot Use (*Optional*)
 
-**Task:**
+### Task
 
 It's 2024. Anyone can just ask ChatGPT and/or Github Copilot to complete coding assignments for them. Don't you dare!
 
 Just kidding. I use ChatGPT and Github Copilot every day. These tools have dramatically raised the ceiling of my capabilities. It'd be weird if I judged you for using it in this assignment.
 
-My sole request is that you be honest. If you used an AI tool like ChatGPT, Copilot or even Devin, please tell me how you used it! Share your prompts and your approach. I would love to see how you incorporate these tools into your work.
+My only request is that you be honest. If you used an AI tool like ChatGPT, Copilot or even Devin, please tell me how you used it! Share your prompts and your approach. I would love to see how you incorporate these tools into your work.
 
 If you don't use these tools at all for this assignment, feel free to blow off this part and submit your assignment!
+
+---
+
+Feel free to reach out if you have any questions. Good luck!
